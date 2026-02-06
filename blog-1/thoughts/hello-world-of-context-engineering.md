@@ -22,7 +22,10 @@ You are now the engineering manager of a team (or a fleet!) of tiny people livin
 
 Star Trek TOS episode of the grown man with amazing power who was actually just a little boy looking to play.
 
-story of one cent for the part and $10,000 for knowing which part was needed, and where the part should be placed. ◦ AI cannot answer those questions for you, because they don't have enough context as to what you are trying to accomplish. 
+You’ve probably heard the old tale about the engineer who charged $10,000 to fix a machine:
+$1 for turning the right screw and $9,999 for knowing which screw to turn. 
+
+We are all that engineer. Coding is just turning the screw. Your deep knowledge of which screw to turn is knowledge about YOUR specific system, with YOUR company's software stack, customer requirements, etc, SLAs, etc. AI cannot answer those questions for you, because they don't have enough context as to what you are trying to accomplish. 
 
 the question is: do you?? have you made a plan, checked it twice, found out if it is naughty or nice.? 
 
