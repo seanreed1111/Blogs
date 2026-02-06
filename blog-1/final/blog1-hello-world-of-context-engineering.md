@@ -14,7 +14,7 @@ If you are using AI coding tools --- and you should be --- then you are a softwa
 
 This is true for junior data scientists, data analysts, and software engineers alike. The moment you hand a task to an AI agent, you have made an architectural decision. You have decided what to delegate, what constraints to impose, and what to trust without verifying. If you do not understand the tradeoffs you are making when you skip best practices, you will pay for it later. Eyes wide open.
 
-Here is how I think about it. You are now the engineering manager of a fleet of tiny people living inside your computer. They can do astonishing things. They can also wreck everything you are working on. If you have ever seen *The Squire of Gothos* --- the Star Trek TOS episode where Trelane has godlike power but turns out to be a child just looking to play --- that is the dynamic. Immense capability, no judgment. The judgment has to come from you.
+Here is how I think about it. You are now the engineering manager of a fleet of tiny people living inside your computer. They can do astonishingly complex tasks. They can also wreck your life and the lives of your coworkers and your entire production system. If you have ever seen *The Squire of Gothos* --- the Star Trek TOS episode where Trelane has godlike power but turns out to be a child just looking to play --- that is the dynamic. Immense capability, no judgment. The judgment has to come from you.
 
 You have probably heard the old tale about the engineer who charged $10,000 to fix a machine. One dollar for turning the right screw, $9,999 for knowing which screw to turn.
 

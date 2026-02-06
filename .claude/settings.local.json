@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git config:*)",
+      "WebSearch",
+      "WebFetch(domain:www.baytechconsulting.com)",
+      "WebFetch(domain:spectrum.ieee.org)",
+      "WebFetch(domain:www.getcassius.ai)",
+      "WebFetch(domain:siliconangle.com)",
+      "WebFetch(domain:fortune.com)"
+    ]
+  }
+}
