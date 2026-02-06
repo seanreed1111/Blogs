@@ -1,12 +1,15 @@
-# Architecting the Agentic Harness: The Real Engineering Behind AI That Actually Works
+# Architecting the Agentic Harness: The Engineering Behind AI That Actually Works
 
 ## The Model Is Not the Product
 
 There is a quiet shift happening in software engineering that I missed for a long time.  The conversation around AI is still dominated by model benchmarks, parameter counts, and who has the best reasoning scores. But the builders who are shipping production AI systems have already moved on. They understand something fundamental: **the model is the engine, but the harness is the car.**
 
-A job posting recently crossed my desk for a "Lead AI Architect" at a legal-tech company. On the surface, it reads like any other AI hire. But buried inside it is a blueprint for what I believe is the most important discipline emerging in modern software development: **the architecture of the agentic harness**.
+I saw job posting recently for a "Lead AI Architect" at a legal-tech company. On the surface, it reads like any other AI hire. But buried inside it is a blueprint for what I believe is the most important discipline emerging in modern software development: **the architecture of the agentic harness**.
 
 The posting explicitly states: *"This is not a research or model-tuning role."* That single sentence tells you everything you need to know about where the industry is headed. The hard problem is no longer making models smarter. The hard problem is making them *reliable, coordinated, and useful* inside real systems that serve real users.
+
+[![XKCD 1838: Machine Learning](https://imgs.xkcd.com/comics/machine_learning.png)](https://xkcd.com/1838/)
+*"Pour the data into this pile of linear algebra and stir." The model is the easy part. ([xkcd #1838](https://xkcd.com/1838/), CC BY-NC 2.5)*
 
 ---
 
@@ -19,6 +22,9 @@ Think of it this way. A foundation model like Claude or GPT is a general-purpose
 The agentic harness solves all of these problems. It is the software that transforms a probabilistic language model into a deterministic, auditable, production-grade system.
 
 This is not prompt engineering. This is *systems engineering* applied to a new class of compute primitive.
+
+[![XKCD 2173: Trained a Neural Net](https://imgs.xkcd.com/comics/trained_a_neural_net.png)](https://xkcd.com/2173/)
+*Sometimes the most reliable neural net is the one between your ears. ([xkcd #2173](https://xkcd.com/2173/), CC BY-NC 2.5)*
 
 ---
 
@@ -42,6 +48,9 @@ Each of these agents needs its own tool library (API integrations with legal res
 
 This is microservices architecture applied to cognitive work. The patterns are familiar to anyone who has built distributed systems: service decomposition, message passing, state management, retry logic, circuit breakers. But the compute primitive is different. Instead of deterministic functions, you are orchestrating probabilistic reasoning engines. That changes everything about how you think about error handling, validation, and reliability.
 
+[![XKCD 1988: Containers](https://imgs.xkcd.com/comics/containers.png)](https://xkcd.com/1988/)
+*The elegant solution to making two programs work together: put them on separate computers and glue the computers together. Containerization in a nutshell. ([xkcd #1988](https://xkcd.com/1988/), CC BY-NC 2.5)*
+
 ### 2. Advanced Memory Systems: High-Fidelity RAG
 
 The second pillar is memory, and this is where most production AI systems fall apart.
@@ -60,6 +69,9 @@ High-fidelity RAG requires:
 
 This is not an AI problem. This is a *data engineering and information architecture* problem. The model's reasoning is only as good as the context it receives, and building systems that consistently provide high-quality context is one of the hardest engineering challenges in production AI.
 
+[![XKCD 2347: Dependency](https://imgs.xkcd.com/comics/dependency.png)](https://xkcd.com/2347/)
+*All of modern digital infrastructure, held up by one tiny project maintained by a random person in Nebraska. Now imagine your RAG pipeline has the same problem. ([xkcd #2347](https://xkcd.com/2347/), CC BY-NC 2.5)*
+
 ### 3. Reliability and Validation Frameworks: Reasoning Loops
 
 The third pillar is the one that separates demos from production systems: reliability.
@@ -76,6 +88,9 @@ But implementing this at production scale is anything but simple. You need:
 - **Testing frameworks** that go beyond unit tests. How do you test a system whose outputs are probabilistic? You need evaluation harnesses that run the system against curated datasets and measure accuracy, consistency, and failure modes across thousands of runs.
 
 This is where the discipline of reliability engineering meets AI. The patterns, SLOs, error budgets, chaos engineering, observability, are borrowed from site reliability engineering. But they are applied to a fundamentally different kind of system, one where the compute is non-deterministic and the failure modes are semantic rather than structural.
+
+[![XKCD 2030: Voting Software](https://imgs.xkcd.com/comics/voting_software.png)](https://xkcd.com/2030/)
+*Aircraft engineers and elevator engineers confidently vouch for their systems. Software engineers... not so much. Now add non-deterministic AI. ([xkcd #2030](https://xkcd.com/2030/), CC BY-NC 2.5)*
 
 ---
 
@@ -106,6 +121,9 @@ The code you write is no longer the thing that does the work. The code you write
 Every company has access to the same foundation models. GPT, Claude, Gemini, open-source alternatives: the reasoning engines are increasingly commoditized. What is not commoditized is the harness. The company that builds the best orchestration layer, the most reliable validation framework, the highest-fidelity memory system wins, regardless of which model they use under the hood.
 
 This is why the posting emphasizes "model routing frameworks" and "multi-model orchestration with fallback logic." The harness is model-agnostic by design. It treats the foundation model as a swappable component, because the real intellectual property is in how you *use* the model, not in the model itself.
+
+![Works on My Machine](https://i.imgflip.com/3ubxjf.jpg)
+*The eternal gap between "it works in my notebook" and "it works in production at scale." The harness is the thing that bridges it. ([Source: Imgflip](https://imgflip.com/i/3ubxjf))*
 
 ---
 

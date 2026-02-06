@@ -7,7 +7,12 @@
       "WebFetch(domain:spectrum.ieee.org)",
       "WebFetch(domain:www.getcassius.ai)",
       "WebFetch(domain:siliconangle.com)",
-      "WebFetch(domain:fortune.com)"
+      "WebFetch(domain:fortune.com)",
+      "Bash(python -c:*)",
+      "Bash(pip install:*)",
+      "Bash(python:*)",
+      "Bash(start \"\" \"c:/Users/sqr99/NewPythonProjects/Blogs/blog-2/final/essay-preview.html\")",
+      "WebFetch(domain:imgflip.com)"
     ]
   }
 }
