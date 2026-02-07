@@ -15,7 +15,9 @@
       "WebFetch(domain:imgflip.com)",
       "Bash(curl:*)",
       "Bash(gh repo create:*)",
-      "Bash(gh repo edit:*)"
+      "Bash(gh repo edit:*)",
+      "mcp__langfuse-docs__searchLangfuseDocs",
+      "WebFetch(domain:pydantic.dev)"
     ]
   }
 }
