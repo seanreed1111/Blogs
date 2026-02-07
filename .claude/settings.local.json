@@ -13,7 +13,9 @@
       "Bash(python:*)",
       "Bash(start \"\" \"c:/Users/sqr99/NewPythonProjects/Blogs/blog-2/final/essay-preview.html\")",
       "WebFetch(domain:imgflip.com)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(gh repo create:*)",
+      "Bash(gh repo edit:*)"
     ]
   }
 }
