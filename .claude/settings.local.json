@@ -17,7 +17,9 @@
       "Bash(gh repo create:*)",
       "Bash(gh repo edit:*)",
       "mcp__langfuse-docs__searchLangfuseDocs",
-      "WebFetch(domain:pydantic.dev)"
+      "WebFetch(domain:pydantic.dev)",
+      "WebFetch(domain:en.meming.world)",
+      "WebFetch(domain:en.wikipedia.org)"
     ]
   }
 }

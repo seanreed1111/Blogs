@@ -2,9 +2,9 @@
 
 ## The Model Is Not the Product
 
-The AI conversation is still about benchmarks, parameter counts, and reasoning scores. The builders shipping production AI systems have already moved on. They are not spending their days comparing models. They are spending their days building the systems *around* models — and discovering that this is where the real engineering lives.
+The AI conversation is still about benchmarks, parameter counts, and reasoning scores. The builders shipping production AI systems have already moved on. They are  spending less of their working day comparing models. They are spending more time building the systems *around* models — and discovering that this is where the real engineering lives.
 
-Here is the pattern every team recognizes. You build an impressive demo in a week. The model is brilliant. Stakeholders are thrilled. Then you spend six months making it production-grade — handling failures, adding validation, building observability, managing state across long-running workflows. The demo was the model. The six months was the harness. **The model is the engine, but the harness is the car.**
+Here is the pattern every team recognizes. I know it by heart and have lived it multiple times. You build an impressive demo in a few weeks. The model is brilliant. Stakeholders are thrilled. Then you spend six months trying to make it production-grade — dealing with new customer requirements, handling failures, adding validation, building observability, managing state across long-running workflows. The demo was the model. The six months was the harness. **The model is the engine, but the harness is the car.**
 
 The discipline of building the harness — the orchestration, observability, and reliability layers around foundation models — is the most consequential engineering work happening in AI right now. The hard problem is no longer making models smarter. The hard problem is making them *reliable, coordinated, and useful* inside real systems that serve real users.
 
@@ -162,4 +162,4 @@ We will look back on this period and see it clearly: the teams that won were not
 
 The early days of computing were dominated by hardware innovation — faster CPUs, more memory, better architectures. But the thing that made computers *useful* was the operating system: the abstraction layer that let applications run reliably on top of raw hardware. We are living through the same transition. The models are the hardware. The harness is the OS. And like the OS, it will be invisible to the end user — and absolutely critical to every engineer who builds on top of it.
 
-The future of AI is not a better model. It is a better harness.
+The future of AI in software applications is not a better model. It is a better harness.
