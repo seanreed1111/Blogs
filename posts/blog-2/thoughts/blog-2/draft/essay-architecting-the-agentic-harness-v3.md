@@ -2,7 +2,7 @@
 
 ## The Model Is Not the Product
 
-The AI conversation is still about benchmarks, parameter counts, and reasoning scores. The builders shipping production AI systems have already moved on. They are  spending less of their working day comparing models. They are spending more time building the systems *around* models — and discovering that this is where the real engineering lives.
+The AI conversation is still about benchmarks, parameter counts, and reasoning scores. The builders shipping production AI systems have already moved on. They are spending less of their working day comparing models. They are spending more time building the systems *around* models — and discovering that this is where the real engineering lives.
 
 Here is the pattern every team recognizes. I know it by heart and have lived it multiple times. You build an impressive demo in a few weeks. The model is brilliant. Stakeholders are thrilled. Then you spend six months trying to make it production-grade — dealing with new customer requirements, handling failures, adding validation, building observability, managing state across long-running workflows. The demo was the model. The six months was the harness. **The model is the engine, but the harness is the car.**
 
